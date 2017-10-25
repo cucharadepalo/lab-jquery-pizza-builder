@@ -39,13 +39,13 @@ function mass(ingredient) {
   var btn, extraIngredient, ingredients, index;
   switch(ingredient) {
     case 'sauce' :
-        extraIngredient = '.sauce-white';
+        extraIngredient = 'sauce-white';
         btn = $('.btn-sauce');
         ingredients = $('.sauce');
         index = 4;
         break;
     case 'crust' :
-        extraIngredient = '.crust-gluten-free';
+        extraIngredient = 'crust-gluten-free';
         btn = $('.btn-crust');
         ingredients = $('.crust');
         index = 5;
